@@ -7,8 +7,8 @@ As of right now, it is not scaling to phone, but I am working on it.
 
 I should have used more bootstrap classes to customise instead of css. This is something I need to improve on.
 
-![Alt text](\images\Screenshot_1.jpg?raw=true "Screensot One")
-![Alt text](\images\Screenshot_2.jpg?raw=true "Screenshot Two")
+![Alt text](./images/Screenshot_1.jpg?raw=true "Screensot One")
+![Alt text](./images/Screenshot_2.jpg?raw=true "Screenshot Two")
 
 ## Installation
 
