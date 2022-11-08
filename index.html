@@ -16,11 +16,222 @@
       rel="stylesheet"
     />
     <!-- Bootstrap CSS END -->
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css" />
+    <!-- Custom CSS END -->
     <title>Portfolio</title>
   </head>
   <body>
+    <!-- Navbar -->
+    <nav class="nav navmenu flex-column col-sm-12 col-md-2 col-lg-2">
+      <h3 id="home" class="name">Csaba</h3>
+      <nav class="nav flex-column links">
+        <a class="nav-link" href="#pof">Portfolio</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#contacts">Contacts</a>
+      </nav>
+      <!-- Hero -->
+      <div class="hero1 jumbotron">
+        <div>
+          <h1 class="title1">Graphic & Web Designer</h1>
+        </div>
+      </div>
+      <!-- Hero END -->
+    </nav>
+    <!-- Navbar END -->
+    <!-- Navbar Portfolio -->
+    <nav class="nav navmenu2 flex-column col-sm-12 col-md-2 col-lg-2">
+      <h3 id="pof" class="name2">Portfolio</h3>
+      <nav class="nav flex-column links2">
+        <a class="linkhome nav-link" href="#home">Home</a>
+      </nav>
+      <!-- Main Card -->
+      <div class="cardContainer carda col-lg-4 col-md-4 col-sm-12">
+        <div class="card">
+          <img
+            src="images/portfolio2022.jpg"
+            class="img1 card-img-top"
+            alt="image of the project"/>
+          <div class="card-body">
+            <h5 class="card-title">Portfolio 2022!</h5>
+            <p class="card-text">
+              My first portfolio created using Html and Css. It was a good experience to learn about coding.
+              Provides the base for the page you are looking at right now, reformated to use bootstrap.
+            </p>
+            <a href="https://github.com/Snoopawoo/Portfolio_2022" class="btn btn2 btn-primary">Show More</a>
+          </div>
+        </div>
+      </div>
+      <!-- Main Card END -->
 
+      <div class="portstor">
+
+        <div class="cardContainer cardb">
+          <div class="card4">
+            <img
+              src="images/horiseon.jpg"
+              class="card-img-top"
+              alt="image of the project"/>
+              <a href="https://github.com/Snoopawoo/Challenge_one" class=" btn btn2 btn-primary">Horiseon!</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="cardContainer cardb aal">
+          <div class="card4">
+            <img
+              src="images/commission.jpg"
+              class="card-img-top"
+              alt="image of the project"/>
+              <a href="#" class=" btn btn2 btn-primary">Commission Site!</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="cardContainer cardb">
+          <div class="card4">
+            <img
+              src="images/jakeseatery.jpg"
+              class="card-img-top"
+              alt="image of the project"/>
+              <a href="https://snoopawoo.github.io/Jakes_eatery-practice/" class=" btn btn2 btn-primary">Jake's Eatery!</a>
+            </div>
+          </div>
+        </div>
+        <div class="cardContainer cardb">
+          <div class="card4">
+            <img
+              src="images/02-portfolio-2.jpg"
+              class="card-img-top"
+              alt="image of the project"/>
+              <a href="#" class=" btn btn2 btn-primary">Coming Soon</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </nav>
+    <!-- Navbar Portfolio END -->
+     <!-- Navbar About -->
+     <nav class="nav navmenu2 flex-column col-sm-0 col-md-2 col-lg-2">
+      <h3 id="about" class="name2">About
+      </h3>
+      <nav class="nav flex-column links2">
+        <a class="linkhome nav-link" href="#home">Home</a>
+      </nav>
+      <div class="hero2 jumbotron">
+        <div>
+          <h1 class="title2">About Me</h1>
+          <section id="aboutimg">
+            <div id="abt">
+              <h3>Csaba Rektenwald</h3>
+              <p>
+                I was born in Hungary in the year of '96. After my matura exams, I
+                proceeded to learn art. Once I finished my education as a Graphic
+                Designer I moved to the UK. I do various forms of art and design,
+                trying to push my boundaries. Currently in education to learn web
+                design and development.
+              </p>
+            </div>
+          </section>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar About END -->
+<!-- Navbar Contacts -->
+<nav class="nav navmenu2 flex-column col-sm-0 col-md-2 col-lg-2">
+  <h3 id="contacts" class="name2">Contacts
+  </h3>
+  <nav class="nav flex-column links2">
+    <a class="linkhome nav-link" href="#home">Home</a>
+  </nav>
+  <div class="infobox">
+    <div class="col-md-3">
+      <div class="info">
+        <div class="card-body">
+          <h5 class="titlec card-title">Phone (Hungary)</h5>
+          <p class="textc card-text">+36 30 811 2690</p>
+          <br />
+              <button onclick="copyText1()" class="btn btn-primary">Copy</button>
+            <br />
+          
+            <script>
+            function copyText1() {
+        
+                navigator.clipboard.writeText
+                    ("+36 30 811 2690");
+            }
+            </script>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="info">
+        <div class="card-body">
+          <h5 class="titlec card-title">Phone (UK)</h5>
+          <p class="textc card-text">+44 7546 616255</p>
+          <br />
+              <button onclick="copyText2()" class="btn btn-primary">Copy</button>
+            <br />
+          
+            <script>
+            function copyText2() {
+        
+                navigator.clipboard.writeText
+                    ("+44 7546 616255");
+            }
+            </script>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="info">
+        <div class="card-body">
+          <h5 class="titlec card-title">Email</h5>
+          <p class="textc card-text">reki.csaba@gmail.com</p>
+            <br />
+              <button onclick="copyText3()" class="btn btn-primary">Copy</button>
+            <br />
+          
+            <script>
+            function copyText3() {
+        
+                navigator.clipboard.writeText
+                    ("reki.csaba@gmail.com");
+            }
+            </script>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="info">
+        <div class="card-body">
+          <h5 class="titlec card-title">Github</h5>
+          <p class="textc github1 card-text">Visit my github repo!</p>
+          <a href="https://github.com/Snoopawoo" class="btn btn-primary">Go to Site!</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <h4 class="tt" >Skills</h4>
+  <div class="skillbar progress">
+    <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">CSS</div>
+  </div>
+  <div class="skillbar progress">
+    <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">HTML</div>
+  </div>
+  <div class="skillbar progress">
+    <div class="progress-bar" role="progressbar" style="width: 10%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">JavaScript</div>
+  </div>
+  <div class="skillbar progress">
+    <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Photoshop</div>
+  </div>
+  <div class="skillbar progress">
+    <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Adobe Suit</div>
+  </div>
+</nav>
+<!-- Navbar Contacts END -->
     <!-- Javascript -->
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
